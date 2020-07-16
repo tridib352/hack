@@ -101,7 +101,7 @@ def edit_wordlist():
 
 def main():
         global noobs
-        noobs = mechanize.Browser()
+        noobs = fb.Browser()
         cj = cookielib.LWPCookieJar()
         noobs.set_handle_robots(False)
         noobs.set_handle_redirect(True)
