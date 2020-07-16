@@ -9,7 +9,6 @@ import sys
 import time
 import random
 import cookielib
-import fb
 
 wd = "\033[90;1m" # dark
 GL = "\033[96;1m" # Blue aqua
@@ -101,7 +100,7 @@ def edit_wordlist():
 
 def main():
         global noobs
-        noobs = fb.Browser()
+        noobs = Browser()
         cj = cookielib.LWPCookieJar()
         noobs.set_handle_robots(False)
         noobs.set_handle_redirect(True)
