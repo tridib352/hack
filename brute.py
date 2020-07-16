@@ -9,7 +9,7 @@ import sys
 import time
 import random
 import cookielib
-
+import fb
 
 wd = "\033[90;1m" # dark
 GL = "\033[96;1m" # Blue aqua
